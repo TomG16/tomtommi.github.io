@@ -1,0 +1,22 @@
+body {
+			font-family: Lato;
+			background-color: #001220;
+			overflow-x: hidden;
+		}
+		.maintext {
+			color: white;
+			text-align: center;
+			font-size: 40px;
+		}
+		.spacer {
+			aspect-ratio: 950/300;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+
+		.layer1 {
+			background-image: url('circles.svg');
+			position: absolute;
+}
