@@ -1,16 +1,8 @@
-body {
+		body {
 			font-family: Lato;
 			background-color: #001220;
 			overflow-x: hidden;
 		}
-		/*.firstDivide {
-			background-color: #01202f;
-			aspect-ratio: 950/300;
-			width: 100%;
-			height: 30px;
-			position: relative; 
-
-		}*/
 		.maintext {
 			color: white;
 			text-align: center;
@@ -32,4 +24,4 @@ body {
 		.layer1 {
 			background-image: url('circles.svg');
 			position: relative;
-}
+		}
