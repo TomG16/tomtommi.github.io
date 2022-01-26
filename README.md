@@ -1,2 +1,2 @@
 # tomtommi.github.io
-simple tomtommidev website
+Website for tomtommi.github.io
