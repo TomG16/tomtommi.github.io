@@ -1,27 +1,74 @@
-		body {
-			font-family: Lato;
-			background-color: #001220;
-			overflow-x: hidden;
-		}
-		.maintext {
-			color: white;
-			text-align: center;
-			font-size: 40px;
-		}
-		.smalltext {
-			color: white;
-			text-align: center;
-			font-size: 17;
-		}
-		.spacer {
-			aspect-ratio: 950/300;
-			width: 100%;
-			background-repeat: no-repeat;
-			background-position: center;
-			background-size: cover;
-		}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-		.layer1 {
-			background-image: url('circles.svg');
-			position: relative;
-		}
+* {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(background.jpg);
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans';
+    
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 80px;
+}
+.title {
+    font-size: 4rem;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    margin: 5px;
+}
+.name {
+    font-size: 17px;
+}
+.description {
+    font-size: 1rem;
+}
+
+.navbar {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header {
+    padding: 10px;
+    
+}
+ul li {
+    display: inline-table;
+    padding: 0px;
+   
+}
+.links {
+    padding: 0px;
+    color: grey;
+}
+a {
+    color: #708090;
+}
+a:hover {
+    text-decoration: none; color:lightcoral; 
+}
+.navbarButtons {
+    padding-right: 25px;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+button:hover {
+    background-color: coral;
+}
