@@ -4,7 +4,6 @@
     text-decoration: none;
 }
 body {
-    min-height: 95vh;
     margin: 0px;
     padding: 0px;
     background-image: url(background.jpg);
@@ -80,25 +79,23 @@ button:focus {
     cursor: pointer;
 }
 
-.about_div {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    overflow: auto;
-    width: 100%;
-}
 #about_popup {
-    width: 400px;
-    margin: 16px;
+    position: absolute;
     display: none;
     z-index: 1;
-    padding: 16px;
+    width: 10vw;
+    min-width: 10vw;
+    height: 24vh;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 50px;
     border: 1px solid coral;
     box-shadow: 0px 0px 10px coral;
     text-align: center;
     background-color: coral;opacity: 0.9;
     border-radius: 7px;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 .close_button {
@@ -111,13 +108,21 @@ and (min-device-width : 320px)
 and (max-device-width : 600px) {
 
     #about_popup {
+        position: absolute;
         display: none;
         z-index: 1;
+        width: 10vw;
+        min-width: 90vw;
+        height: 90vw;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        padding: 50px;
         border: 1px solid coral;
         box-shadow: 0px 0px 10px coral;
         text-align: center;
         background-color: coral;opacity: 0.9;
         border-radius: 7px;
-        overflow: scroll;
+        overflow: hidden;
     }
 }
